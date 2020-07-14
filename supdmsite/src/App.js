@@ -24,7 +24,7 @@ class App extends React.Component {
         <h3 className="text-center col-12 col-md-8 m-auto">Continue your Instagram direct messages from your phone to your desktop.</h3>
         <div className="download col-md-auto mt-5">
           <h5>Download the latest <span>v1.0.1</span></h5>
-          <div className="mt-2 btn-group" role="group" aria-label="Download buttons"><a className="btn btn-outline-light" role="button" href="/download"><i className="mdi mdi-windows"></i><span className="ml-2">Windows</span></a><a className="btn btn-outline-light" role="button" href="/download/mac"><i className="mdi mdi-apple"> </i><span className="ml-2">macOS</span></a><a className="btn btn-outline-light" role="button" href="/download/linux"><i className="mdi mdi-linux"></i><span className="ml-2">Linux</span></a></div>
+          <div className="mt-2 btn-group" role="group" aria-label="Download buttons"><a className="btn btn-outline-light" role="button" href="/download"><i className="mdi mdi-windows"></i><span className="ml-2">Windows</span></a><a className="btn btn-outline-light" role="button" href="/download/mac"><i className="mdi mdi-apple"> </i><span className="ml-2">macOS</span></a></div>
         </div><a className="downloadCount mt-3 d-block" href="">Over 100+ Downloads!</a>
       </div>
     </div>
