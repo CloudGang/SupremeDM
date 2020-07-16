@@ -80,8 +80,8 @@ class App extends React.Component {
         </div>
         <div className="col-md-1"></div>
         <div className="col-md-5">
-          <h4>Donations</h4>IGdm
-          is an open source project that can be used for free by anyone, donations
+          <h4>Donations</h4>SupremeDM
+          is an open source project and the source can be used for free by anyone, donations
           and incentives are wholeheartedly welcome.<a className="btn btn-link btn-outline-light" role="button" href="http://paypal.me/supremeciento" target="_blank">Donate via PayPal</a>
         </div>
       </section>
