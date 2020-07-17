@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends React.Component {
   render (){
     return (
       <div className="App">
-            <div className="psa lykdat"><b>Sponsored:&nbsp;</b><span>Shop for fashion by searching with images on &nbsp;</span><b>LykDat &nbsp;</b><a className="btn btn-primary" href="https://lykdat.com/?utm_source=igdm&amp;utm_medium=banner" target="_blank"><b>TRY IT NOW</b></a></div>
+            <div className="psa lykdat"><b>Sponsored:&nbsp;</b><span>Shop for fashion by searching with images on &nbsp;</span><b>LykDat &nbsp;</b><a className="btn btn-primary" href="https://lykdat.com/?utm_source=igdm&amp;utm_medium=banner" target="_blank" rel="noopener noreferrer"><b>TRY IT NOW</b></a></div>
     <div className="promoBanner active">
       <div className="backgroundSkew"></div>
       <nav className="navbar navbar-expand-md container transparent navbar-dark"><a className="navbar-brand" href="/"><img className="d-inline-block align-top" src="/img/icon.png" width="32" height="32" alt="PrismarineJS" /></a>
@@ -24,8 +23,8 @@ class App extends React.Component {
         <h3 className="text-center col-12 col-md-8 m-auto">Continue your Instagram direct messages from your phone to your desktop.</h3>
         <div className="download col-md-auto mt-5">
           <h5>Download the latest <span>v1.0.1</span></h5>
-          <div className="mt-2 btn-group" role="group" aria-label="Download buttons"><a className="btn btn-outline-light" role="button" href="/download"><i className="mdi mdi-windows"></i><span className="ml-2">Windows</span></a><a className="btn btn-outline-light" role="button" href="/download/mac"><i className="mdi mdi-apple"> </i><span className="ml-2">macOS</span></a></div>
-        </div><a className="downloadCount mt-3 d-block" href="">Over 100+ Downloads!</a>
+          <div className="mt-2 btn-group" role="group" aria-label="Download buttons"><a className="btn btn-outline-light" role="button" href="/download"><i className="mdi mdi-windows"></i><span className="ml-2">Windows</span></a><a className="btn btn-outline-light" id="macBtn" alt="Coming Soon" title="Coming Soon" role="button" href="/download/mac"><i className="mdi mdi-apple"> </i><span className="ml-2">Coming Soon</span></a></div>
+        </div><a className="downloadCount mt-3 d-block" href="/">Over 100+ Downloads!</a>
       </div>
     </div>
     <div className="container">
@@ -68,7 +67,7 @@ class App extends React.Component {
           </div>
           <div className="col-md-4"></div>
         </div>
-        <div className="screenshots row mt-5 text-center"><a className="col-md-4 mb-4" href="img/startchat.gif" target="_blank">Search for users and start a conversation<img className="mt-3 img-fluid" src="img/startchat.gif" /></a><a className="col-md-4 mb-4" href="img/unfollowers.gif" target="_blank">View a list of users not following you back<img className="mt-3 img-fluid" src="img/unfollowers.gif" /></a><a className="col-md-4 mb-4" href="img/quotemessage.gif" target="_blank">Quote a chat message<img className="mt-3 img-fluid" src="img/quotemessage.gif" /></a><a className="col-md-4" href="img/viewimage.gif" target="_blank">View chat images<img className="mt-3 img-fluid" src="img/viewimage.gif" /></a></div>
+        <div className="screenshots row mt-5 text-center"><a className="col-md-4 mb-4" href="img/startchat.gif" alt="SupremeDM" target="_blank">Search for users and start a conversation<img className="mt-3 img-fluid" src="img/startchat.gif" alt="SupremeDM"/></a><a className="col-md-4 mb-4" href="img/unfollowers.gif" target="_blank">View a list of users not following you back<img className="mt-3 img-fluid" src="img/unfollowers.gif" alt="SupremeDM" /></a><a className="col-md-4 mb-4" href="img/quotemessage.gif" alt="SupremeDM" target="_blank">Quote a chat message<img className="mt-3 img-fluid" src="img/quotemessage.gif" alt="SupremeDM" /></a><a className="col-md-4" href="img/viewimage.gif" target="_blank">View chat images<img className="mt-3 img-fluid" src="img/viewimage.gif" alt="SupremeDM"/></a></div>
       </section>
       <section className="issues mt-5 text-center">
         <h2>Want more features?</h2>
@@ -81,8 +80,8 @@ class App extends React.Component {
         <div className="col-md-1"></div>
         <div className="col-md-5">
           <h4>Donations</h4>SupremeDM
-          is an open source project and the source can be used for free by anyone, donations
-          and incentives are wholeheartedly welcome.<a className="btn btn-link btn-outline-light" role="button" href="http://paypal.me/supremeciento" target="_blank">Donate via PayPal</a>
+          was an open source project and the original source can be used for free by anyone, donations
+          and incentives are wholeheartedly welcome.<a className="btn btn-link btn-outline-light" role="button" href="http://paypal.me/supremeciento" target="_blank" rel="noopener noreferrer">Donate via PayPal</a>
         </div>
       </section>
     </div>
