@@ -24,7 +24,7 @@ class App extends React.Component {
         </div>
       </nav>
       <div className="container promo pb-5 pt-2 mb-5 text-center">
-        <h1 style={{fontSize: 24}} className="text-center display-1 col-md-auto">SupremeDM</h1>
+        <h1 style={{fontSize: 54}} className="text-center display-1 col-md-auto">SupremeDM</h1>
         <h3 className="text-center col-12 col-md-8 m-auto">Continue your Instagram direct messages from your phone on your desktop.</h3>
         <div className="download col-md-auto mt-5">
           <h5>Download the latest <span>v1.0.1</span></h5>
