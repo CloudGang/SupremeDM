@@ -94,6 +94,10 @@ div.psa a.btn.btn-primary {
   z-index: 10;
 }
 
+#Butt {
+  width: 25%;
+}
+
 footer {
   position: relative;
   overflow: hidden;
