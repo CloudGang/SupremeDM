@@ -7,8 +7,7 @@ class App extends React.Component {
       alert("Coming Soon!");
     }
     const styleObj = {
-      fontSize: 60,
-      textAlign: "center"
+
     }
     return (
       <div className="App">
