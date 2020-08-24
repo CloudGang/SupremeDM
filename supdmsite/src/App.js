@@ -21,7 +21,7 @@ class App extends React.Component {
                   <li className="nav-item"><a className="nav-link" href="/changelog">Changelog</a></li>
                   <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
                   <li className="nav-item"><a className="nav-link" href="/download">Download</a></li>
-                  <li className="nav-item"><a className="nav-link" href="/Bot">Instagram Bot</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/bot">Instagram Bot</a></li>
           </ul>
         </div>
       </nav>
